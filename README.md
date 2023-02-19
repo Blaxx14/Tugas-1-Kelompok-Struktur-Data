@@ -3,6 +3,6 @@ Kelompok 1
 
 dear anggota kelompok,
 
-dicoba yak di IDE kelenn
+dicoba di IDE yak?
 
 Terima kasih
