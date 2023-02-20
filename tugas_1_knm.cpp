@@ -80,7 +80,7 @@ int main()
 
     for (int a = 0; a < jumlahAngka; a++)
     {
-        cout << "Element-" << (a + 1) << " : " << simpan[a] << endl;
+        cout << simpan[a] << ' ,';
     }
 
     cout << endl
