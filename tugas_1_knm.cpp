@@ -26,12 +26,33 @@ int main()
 
     // program jawaban no 1
     int angka[5][2] = {{1, 2}, {4, 3}, {5, 10}, {9, 20}, {8, 2}};
-    int penjumlahan1 = angka[4][1] + angka[2][1];
-    cout << "1. Program:\nint angka[5][2] = {{1, 2}, {4, 3}, {5, 10}, {9, 20}, {8, 2}};\nint penjumlahan1 = angka[4][1] + angka[2][1];"
+    int angka2[5][2] = {{2, 3}, {8, 7}, {5, 10}, {5, 2}, {7, 9}};
+    int jumlah[5][2];
+    for (int a = 0; a < 5; a++)
+    {
+        for (int b = 0; b < 2; b++)
+        {
+            jumlah[a][b] = angka[a][b] + angka2[a][b];
+        }
+    }
+    cout << "1. Program:\n\nint angka[5][2] = {{1, 2}, {4, 3}, {5, 10}, {9, 20}, {8, 2}};\nint angka2[5][2] = {{2, 3}, {8, 7}, {5, 10}, {5, 2}, {7, 9}};"
+         << endl
+         << "int jumlah[5][2];\nfor (int a = 0; a < 5; a++)\n {\nfor (int b = 0; b < 2; b++)\n{\njumlah[a][b] = angka[a][b] + angka2[a][b];\n }\n}"
          << endl
          << endl
-         << "Hasil: " << penjumlahan1 << endl
-         << endl
+         << "Hasil: " << endl;
+
+    for (int c = 0; c < 5; c++)
+    {
+        for (int d = 0; d < 2; d++)
+        {
+            cout << jumlah[c][d] << "\t";
+        }
+
+        cout << endl;
+    }
+
+    cout << endl
          << endl;
 
     // program jawaban no 2
